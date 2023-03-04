@@ -1,0 +1,1 @@
+C:\Users\logonrmlocal\Desktop\Ondeeh\buildSrc\build\classes\kotlin\main\dependencies\Deps$Retrofit.class;C:\Users\logonrmlocal\Desktop\Ondeeh\buildSrc\build\classes\kotlin\main\dependencies\Deps.class;C:\Users\logonrmlocal\Desktop\Ondeeh\buildSrc\build\classes\kotlin\main\dependencies\Versions.class

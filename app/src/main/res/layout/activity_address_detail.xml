@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width ="match_parent"
+    android:layout_height ="match_parent"
+    android:orientation ="vertical"
+    android:padding="16dp">
+    <ImageView
+        android:layout_width ="match_parent"
+        android:layout_height ="200dp"
+        android:padding="16dp"
+        android:src="@drawable/header_pin" />
+    <TextView
+        android:id="@+id/tvStreetName"
+        style="@style/label_address_result"
+        tools:text="Logradouro" />
+
+    <TextView
+        android:id="@+id/tvDistrict"
+        style="@style/label_address_result"
+        tools:text="Bairro" />
+    <TextView
+        android:id="@+id/tvCity"
+        style="@style/label_address_result"
+        tools:text="Localidade" />
+    <TextView
+        style="@style/label_address_result"
+        android:id="@+id/tvUF"
+        tools:text="UF" />
+
+    <Button
+        android:layout_marginTop ="16dp"
+        android:layout_marginBottom ="16dp"
+        android:id="@+id/btNew"
+        android:layout_width ="match_parent"
+        android:layout_height ="wrap_content"
+        android:text="Nova Pesquisa" />
+</LinearLayout >
