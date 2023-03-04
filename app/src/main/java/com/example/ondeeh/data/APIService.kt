@@ -13,8 +13,7 @@ object APIService {
                     .build()
                 val retrofit = Retrofit.Builder()
                     .baseUrl( "https://viacep.com.br" )
-
-                    .addConverterFactory( MoshiConverterFactory .create())
+                    .addConverterFactory(MoshiConverterFactory.create())
                     .client( client)
                     .build()
                 INSTANCE = retrofit.create(AddressService ::class.java)

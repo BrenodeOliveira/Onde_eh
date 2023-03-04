@@ -12,7 +12,11 @@ import retrofit2.Response
 
 class AddressDetailActivity : AppCompatActivity() {
 
-    private val binding: ActivityAddressDetailBinding by lazy { ActivityAddressDetailBinding.inflate(layoutInflater) }
+    private val binding: ActivityAddressDetailBinding by lazy {
+        ActivityAddressDetailBinding.inflate(
+            layoutInflater
+        )
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
